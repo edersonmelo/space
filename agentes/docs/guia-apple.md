@@ -4,7 +4,7 @@
 
 | Opção | Veredito | Por quê |
 |---|---|---|
-| **Clone novo** (`tools/add-repo.sh ios <url>`) | ✅ use esta | Vem só o código, sem `build/`, `.build`, `target/` e DerivedData. A pasta antiga vira backup. |
+| **Clone novo** (`tools/add-repo.sh <url-ou-caminho>`) | ✅ use esta | Vem só o código, sem `build/`, `.build`, `target/` e DerivedData. A pasta antiga vira backup. |
 | Mover a pasta inteira | ⚠️ | Funciona, mas leva artefatos de build e pode quebrar caminhos absolutos gravados pelo Xcode ou por scripts. |
 | Symlink para a pasta antiga | ❌ | Fura a fronteira: o agente passa a escrever fora do Space e o container não segue o link. |
 

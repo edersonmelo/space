@@ -1,5 +1,5 @@
-# grupo	nome	url	branch
-# Copie para repos.tsv (que fica fora do git) ou use tools/add-repo.sh.
-# Uma linha por projeto, separada por TAB. Linhas com # são ignoradas.
-ios	MeuApp	https://github.com/usuario/meu-app.git	main
-www	site	git@github.com:usuario/site.git	main
+# nome	url	branch
+# Lista dos projetos clonados por tools/add-repo.sh / tools/sync-repos.sh. Fica fora do git.
+# Projetos copiados à mão para repositorios/ não precisam estar aqui.
+meu-app	https://github.com/usuario/meu-app.git	main
+api	git@github.com:usuario/api.git	main

@@ -3,7 +3,7 @@
 | Bloco | Onde |
 |---|---|
 | Regras e segurança | `regras/` (importadas pelo `CLAUDE.md` da raiz) |
-| Decisão e orquestração | `../.claude/agents/` — `orquestrador`, `especificador`, `ios-especialista`, `revisor` |
+| Decisão e orquestração | `../.claude/agents/` — `orquestrador`, `especificador`, `desenvolvedor`, `ios-especialista`, `revisor` |
 | Skills | `../.claude/skills/` |
 | Contexto indexado | `contexto/indice.md` (gerado) |
 | Ferramentas e integrações | `integracoes/README.md` + `../.mcp.json` |

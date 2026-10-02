@@ -1,0 +1,4 @@
+# Caminhos que o agente não pode tocar nesta máquina (um por linha; basta um trecho do caminho).
+# Copiado para caminhos-bloqueados.local pelo tools/init.sh. O .local não vai para o git.
+# Exemplo: a pasta original de um projeto que você trouxe para o Space.
+# Projetos/meu-app-antigo
