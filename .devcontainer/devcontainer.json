@@ -1,0 +1,10 @@
+{
+  "name": "space-agentes",
+  "build": { "dockerfile": "Dockerfile" },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/space,type=bind",
+  "workspaceFolder": "/space",
+  "runArgs": ["--cap-add=NET_ADMIN", "--cap-add=NET_RAW"],
+  "remoteUser": "node",
+  "postStartCommand": "sudo /usr/local/bin/init-firewall.sh",
+  "mounts": ["source=space-claude-config,target=/home/node/.claude,type=volume"]
+}

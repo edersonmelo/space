@@ -1,0 +1,14 @@
+# Código dos projetos: cada um é um repo próprio
+repositorios/*/
+repositorios/repos.tsv
+
+# Pessoal / desta máquina
+*.local
+agentes/docs/local/
+.claude/settings.local.json
+
+# Gerados
+agentes/contexto/indice.md
+
+.DS_Store
+.env
